@@ -1,0 +1,72 @@
+
+# ---- Node / Express backend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+# If you prefer to commit lockfile, remove the line above.
+
+# Build / temp / coverage
+dist/
+build/
+.tmp/
+temp/
+coverage/
+*.log
+*.pid
+*.seed
+*.tmp
+
+# ---- Environment & secrets ----
+.env
+.env.*      # .env.dev, .env.prod, etc.
+!.env.example
+
+# ---- Data & runtime artifacts ----
+# Keep example seed files, ignore local runtime-generated artifacts if you prefer.
+# Uncomment if you DON'T want to commit local runtime data changes:
+# src/data/users.json
+# src/data/orders.json
+# src/data/products.json
+# src/data/address.json
+# src/data/images/*
+
+# If you DO want to version seed data (recommended for initial samples), leave commented
+# and just ensure secrets remain in .env.
+
+# ---- OS / Editor junk ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Archives / binaries ----
+*.zip
+*.7z
+*.tar
+*.gz
+
+# ---- Postman / tooling (optional) ----
+# If you export collections frequently and don't want to commit them:
+# *.postman_collection.json
+# *.postman_environment.json
+
+# ---- Logs from nodemon/morgan ----
+logs/

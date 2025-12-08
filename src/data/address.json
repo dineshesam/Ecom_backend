@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "data": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub"
+    },
+    "createdAt": "2025-12-08T07:02:26.919Z",
+    "updatedAt": "2025-12-08T07:02:26.919Z"
+  }
+]

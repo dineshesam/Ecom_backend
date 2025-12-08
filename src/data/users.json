@@ -1,0 +1,37 @@
+[
+  {
+    "id": "61a6bd21-9782-4f0a-8c48-988c90098cd8",
+    "name": "Admin",
+    "email": "admin@shop.com",
+    "passwordHash": "$2a$10$Um19AMUCZG3vrg3g3l9od.lefK/RulHEx6bNNG.j77sx0NXe9OHwW",
+    "role": "admin",
+    "wishlist": [],
+    "cart": [],
+    "createdAt": "2025-12-07T17:11:38.390Z",
+    "updatedAt": "2025-12-07T17:11:38.390Z"
+  },
+  {
+    "id": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "name": "Dinesh",
+    "email": "user@shop.com",
+    "passwordHash": "$2a$10$Ep92ytsBBYI/fdkBJ3g.Oekll5TK12piUKcoYpgMrgiHY1akShUh6",
+    "role": "user",
+    "wishlist": [
+      1
+    ],
+    "cart": [],
+    "createdAt": "2025-12-07T17:15:48.502Z",
+    "updatedAt": "2025-12-08T07:03:10.269Z"
+  },
+  {
+    "id": "5ba6ca7e-0e89-414c-a3a6-8821d8808aba",
+    "name": "rohith",
+    "email": "user@shop1.com",
+    "passwordHash": "$2a$10$Br2gf4Nl1c3SwNstioRarOejCnXxrdV9L52ewFt6IBlL3eHJID28.",
+    "role": "user",
+    "wishlist": [],
+    "cart": [],
+    "createdAt": "2025-12-07T17:18:41.089Z",
+    "updatedAt": "2025-12-07T17:18:41.089Z"
+  }
+]

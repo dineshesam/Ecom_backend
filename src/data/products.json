@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "description": "Bluetooth 5.3, ANC",
+    "price": 1999,
+    "stock": 46,
+    "images": [
+      "/data/images/earphones.jpg"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41.922Z",
+    "updatedAt": "2025-12-08T07:03:10.265Z"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X",
+    "description": "AMOLED, 8GB RAM, 128GB",
+    "price": 25999,
+    "stock": 100,
+    "images": [
+      "/data/images/phone.jpg"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41.922Z",
+    "updatedAt": "2025-12-07T09:49:41.922Z"
+  },
+  {
+    "id": 3,
+    "name": "Laptop Pro 14",
+    "description": "i7, 16GB RAM, 512GB SSD",
+    "price": 89999,
+    "stock": 30,
+    "images": [
+      "/data/images/laptop.jpg"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41.922Z",
+    "updatedAt": "2025-12-07T09:49:41.922Z"
+  }
+]

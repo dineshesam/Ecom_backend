@@ -1,0 +1,59 @@
+[
+  {
+    "id": "f4af5dcf-40ca-4f66-98fe-74c40a1a558c",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 2
+      }
+    ],
+    "total": 3998,
+    "status": "pending",
+    "address": {
+      "postalCode": "122002",
+      "city": "Gurgaon",
+      "line1": "11 MG Road"
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-07T17:48:11.480Z",
+    "updatedAt": "2025-12-07T17:48:11.480Z"
+  },
+  {
+    "id": "bc29503c-5fe5-412a-8ce5-15ff8d51c463",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 2
+      }
+    ],
+    "total": 3998,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-08T07:03:10.269Z",
+    "updatedAt": "2025-12-08T07:03:10.269Z"
+  }
+]

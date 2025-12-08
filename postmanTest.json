@@ -1,0 +1,387 @@
+
+{
+  "info": {
+    "name": "Ecommerce Local Backend – Full Flow",
+    "_postman_id": "8d75f1ae-9d04-4d8f-9a8f-ff-full-flow",
+    "description": "Complete collection for auth, product CRUD, wishlist, cart, and checkout on the local JSON file–backed Node/Express backend.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:4000" },
+    { "key": "token", "value": "" },
+    { "key": "adminToken", "value": "" },
+    { "key": "userToken", "value": "" },
+    { "key": "productId", "value": "1" },
+    { "key": "orderId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register Admin",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/api/auth/register", "host": ["{{baseUrl}}"], "path": ["api", "auth", "register"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\":\"Admin\",\n  \"email\":\"admin@shop.com\",\n  \"password\":\"Pass@123\",\n  \"role\":\"admin\"\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "pm.environment.set('adminToken', json.token || '');",
+                  "// also set token to admin by default",
+                  "pm.environment.set('token', json.token || '');",
+                  "pm.test('Registered admin and captured token', function(){",
+                  "  pm.expect(json).to.have.property('token');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Register User",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/api/auth/register", "host": ["{{baseUrl}}"], "path": ["api", "auth", "register"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\":\"Dinesh\",\n  \"email\":\"user@shop.com\",\n  \"password\":\"Pass@123\",\n  \"role\":\"user\"\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "pm.environment.set('userToken', json.token || '');",
+                  "pm.test('Registered user and captured token', function(){",
+                  "  pm.expect(json).to.have.property('token');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Login Admin",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/api/auth/login", "host": ["{{baseUrl}}"], "path": ["api", "auth", "login"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\":\"admin@shop.com\",\n  \"password\":\"Pass@123\"\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "pm.environment.set('adminToken', json.token || '');",
+                  "pm.environment.set('token', json.token || '');",
+                  "pm.test('Logged in admin and captured token', function(){",
+                  "  pm.expect(json).to.have.property('token');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Login User",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/api/auth/login", "host": ["{{baseUrl}}"], "path": ["api", "auth", "login"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\":\"user@shop.com\",\n  \"password\":\"Pass@123\"\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "pm.environment.set('userToken', json.token || '');",
+                  "pm.test('Logged in user and captured token', function(){",
+                  "  pm.expect(json).to.have.property('token');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Me (current user)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": { "raw": "{{baseUrl}}/api/auth/me", "host": ["{{baseUrl}}"], "path": ["api", "auth", "me"] }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "item": [
+        {
+          "name": "List products (public)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/products?q=&category=&min=&max=&page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "products"],
+              "query": [
+                { "key": "q", "value": "" },
+                { "key": "category", "value": "" },
+                { "key": "min", "value": "" },
+                { "key": "max", "value": "" },
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get product by id (public)",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/products/{{productId}}", "host": ["{{baseUrl}}"], "path": ["api", "products", "{{productId}}"] }
+          },
+          "response": []
+        },
+        {
+          "name": "Create product (admin)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{adminToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/products", "host": ["{{baseUrl}}"], "path": ["api", "products"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\":\"Bluetooth Speaker\",\n  \"description\":\"20W BassUp\",\n  \"price\":3499,\n  \"stock\":70,\n  \"images\":\"/data/images/speaker.jpg\",\n  \"category\":\"audio\",\n  \"active\":true\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const p = pm.response.json();",
+                  "if (p && p.id) { pm.environment.set('productId', p.id); }",
+                  "pm.test('Created product and captured productId', function(){",
+                  "  pm.expect(p).to.have.property('id');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Update product (admin)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{adminToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/products/{{productId}}", "host": ["{{baseUrl}}"], "path": ["api", "products", "{{productId}}"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"price\": 3299,\n  \"stock\": 65\n}"
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete product (admin)",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{adminToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/products/{{productId}}", "host": ["{{baseUrl}}"], "path": ["api", "products", "{{productId}}"] }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Wishlist (user)",
+      "item": [
+        {
+          "name": "Get wishlist",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{userToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/wishlist", "host": ["{{baseUrl}}"], "path": ["api", "wishlist"] }
+          },
+          "response": []
+        },
+        {
+          "name": "Add to wishlist",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{userToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/wishlist", "host": ["{{baseUrl}}"], "path": ["api", "wishlist"] },
+            "body": { "mode": "raw", "raw": "{\n  \"productId\": {{productId}}\n}" }
+          },
+          "response": []
+        },
+        {
+          "name": "Remove from wishlist",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{userToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/wishlist/{{productId}}", "host": ["{{baseUrl}}"], "path": ["api", "wishlist", "{{productId}}"] }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Cart (user)",
+      "item": [
+        {
+          "name": "Get cart",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{userToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/cart", "host": ["{{baseUrl}}"], "path": ["api", "cart"] }
+          },
+          "response": []
+        },
+        {
+          "name": "Add to cart",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{userToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/cart", "host": ["{{baseUrl}}"], "path": ["api", "cart"] },
+            "body": { "mode": "raw", "raw": "{\n  \"productId\": {{productId}},\n  \"qty\": 2\n}" }
+          },
+          "response": []
+        },
+        {
+          "name": "Update cart item qty",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{userToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/cart", "host": ["{{baseUrl}}"], "path": ["api", "cart"] },
+            "body": { "mode": "raw", "raw": "{\n  \"productId\": {{productId}},\n  \"qty\": 1\n}" }
+          },
+          "response": []
+        },
+        {
+          "name": "Clear cart",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{userToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/cart", "host": ["{{baseUrl}}"], "path": ["api", "cart"] }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Orders / Checkout",
+      "item": [
+        {
+          "name": "Create order from cart (user)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{userToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/orders", "host": ["{{baseUrl}}"], "path": ["api", "orders"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"address\": {\n    \"line1\":\"11 MG Road\",\n    \"city\":\"Gurgaon\",\n    \"postalCode\":\"122002\"\n  },\n  \"paymentMethod\":\"cod\"\n}"
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const o = pm.response.json();",
+                  "if (o && o.id) pm.environment.set('orderId', o.id);",
+                  "pm.test('Created order and captured orderId', function(){ pm.expect(o).to.have.property('id'); });"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "My orders (user)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{userToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/orders/my", "host": ["{{baseUrl}}"], "path": ["api", "orders", "my"] }
+          },
+          "response": []
+        },
+        {
+          "name": "List all orders (admin)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{adminToken}}" }],
+            "url": { "raw": "{{baseUrl}}/api/orders", "host": ["{{baseUrl}}"], "path": ["api", "orders"] }
+          },
+          "response": []
+        },
+        {
+          "name": "Update order status (admin)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{adminToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/orders/{{orderId}}/status", "host": ["{{baseUrl}}"], "path": ["api", "orders", "{{orderId}}", "status"] },
+            "body": { "mode": "raw", "raw": "{\n  \"status\": \"shipped\"\n}" }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
