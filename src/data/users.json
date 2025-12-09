@@ -33,5 +33,29 @@
     "cart": [],
     "createdAt": "2025-12-07T17:18:41.089Z",
     "updatedAt": "2025-12-07T17:18:41.089Z"
+  },
+  {
+    "id": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "name": "Dinnu",
+    "email": "kickbattowski360@gmail.com",
+    "passwordHash": "$2a$10$FpdPzRhkF/8wIa4ysfHcn.pCx9c8Mzpxf07xY9n1PpG1nB3Clh8Wm",
+    "role": "user",
+    "wishlist": [
+      1,
+      2,
+      3
+    ],
+    "cart": [
+      {
+        "productId": 3,
+        "qty": 2
+      },
+      {
+        "productId": 2,
+        "qty": 2
+      }
+    ],
+    "createdAt": "2025-12-08T17:52:27.041Z",
+    "updatedAt": "2025-12-09T10:57:34.423Z"
   }
 ]

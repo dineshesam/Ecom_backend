@@ -57,3 +57,27 @@ export const clearCart = async (req, res) => {
   await writeJSON(USERS_FILE, users);
   res.json({ message: 'Cart cleared' });
 };
+export const removeCartItem = async (req, res) => {
+  const { productId } = req.params;
+  const users = await readJSON(USERS_FILE);
+  const user = users.find(u => u.id === req.user.id);
+  if (!user) return res.status(404).json({ message: 'User not found' });
+
+  user.cart ||= [];
+  const before = user.cart.length;
+  user.cart = user.cart.filter(c => Number(c.productId) != Number(productId));
+  const after = user.cart.length;
+
+  if (before === after) {
+    // item wasn’t in cart
+    return res.status(404).json({ message: 'Item not in cart' });
+  }
+
+  user.updatedAt = new Date().toISOString();
+  await writeJSON(USERS_FILE, users);
+
+  // return the updated, raw cart for consistency with your add/update endpoints
+  return res.json(user.cart);
+};
+
+
