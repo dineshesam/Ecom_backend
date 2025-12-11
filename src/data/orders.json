@@ -55,5 +55,160 @@
     },
     "createdAt": "2025-12-08T07:03:10.269Z",
     "updatedAt": "2025-12-08T07:03:10.269Z"
+  },
+  {
+    "id": "ae245c35-1bc9-4194-a35d-7cf26332cf0a",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 3
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1
+      }
+    ],
+    "total": 169995,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "Bla",
+      "pincode": "5787",
+      "state": "",
+      "city": "Ghkkg",
+      "buildingName": "Guru",
+      "area": "",
+      "type": "",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-10T07:20:48.649Z",
+    "updatedAt": "2025-12-10T07:20:48.649Z"
+  },
+  {
+    "id": "aa1f8715-c828-4284-9033-88b8d921b43e",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      }
+    ],
+    "total": 91998,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "Gugf",
+      "pincode": "Fufs",
+      "state": "",
+      "city": "Sfdd",
+      "buildingName": "Gury",
+      "area": "",
+      "type": "",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-10T07:40:25.905Z",
+    "updatedAt": "2025-12-10T07:40:25.905Z"
+  },
+  {
+    "id": "dda3080f-b660-4a68-a436-a662e0efce8b",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1
+      }
+    ],
+    "total": 91998,
+    "status": "pending",
+    "address": {
+      "name": "kick",
+      "phoneNo": "9999",
+      "pincode": "",
+      "state": "telgnaa",
+      "city": "hyd",
+      "buildingName": "",
+      "area": "",
+      "type": "",
+      "location": "",
+      "addressId": 4
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-10T11:52:51.170Z",
+    "updatedAt": "2025-12-10T11:52:51.170Z"
+  },
+  {
+    "id": "3566c9df-9eef-470b-a82d-58b13f375eea",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      }
+    ],
+    "total": 53997,
+    "status": "pending",
+    "address": {
+      "name": "Sandeep",
+      "phoneNo": "Ghf",
+      "pincode": "Cvfd",
+      "state": "Hhfd",
+      "city": "Hhfd",
+      "buildingName": "Ghfd",
+      "area": "Bhcd",
+      "type": "home",
+      "location": "Kkxs"
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-10T12:00:19.288Z",
+    "updatedAt": "2025-12-10T12:00:19.288Z"
   }
 ]
