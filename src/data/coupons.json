@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "code": "NEWYEAR20",
+    "type": "percentage",
+    "value": 20,
+    "active": true
+  },
+  {
+    "id": 2,
+    "code": "FLAT100",
+    "type": "fixed",
+    "value": 100,
+    "active": true
+  }
+  ,
+   {
+    "id": 3,
+    "code": "FLAT1000",
+    "type": "fixed",
+    "value": 1000,
+    "active": true
+  },
+   {
+    "id": 4,
+    "code": "CHRISTMAS50",
+    "type": "percentage",
+    "value": 50,
+    "active": true
+  }
+]

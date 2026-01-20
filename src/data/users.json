@@ -12,16 +12,22 @@
   },
   {
     "id": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
-    "name": "Dinesh",
+    "name": "Dinesh Eesam",
     "email": "user@shop.com",
-    "passwordHash": "$2a$10$Ep92ytsBBYI/fdkBJ3g.Oekll5TK12piUKcoYpgMrgiHY1akShUh6",
+    "passwordHash": "$2a$10$LTxwXk5ogODe.YkbczO4F.oPyTrEuEFqlCFiJh449sZk/GtJSJTPO",
     "role": "user",
     "wishlist": [
-      1
+      29,
+      26
     ],
-    "cart": [],
+    "cart": [
+      {
+        "productId": 2,
+        "qty": 1
+      }
+    ],
     "createdAt": "2025-12-07T17:15:48.502Z",
-    "updatedAt": "2025-12-08T07:03:10.269Z"
+    "updatedAt": "2026-01-06T13:57:52.358Z"
   },
   {
     "id": "5ba6ca7e-0e89-414c-a3a6-8821d8808aba",
@@ -36,13 +42,15 @@
   },
   {
     "id": "e844499e-3336-49be-beeb-1bef0a41ce2d",
-    "name": "Dinnu",
+    "name": "Dinesh",
     "email": "kickbattowski360@gmail.com",
     "passwordHash": "$2a$10$FpdPzRhkF/8wIa4ysfHcn.pCx9c8Mzpxf07xY9n1PpG1nB3Clh8Wm",
     "role": "user",
     "wishlist": [
-      3,
-      1
+      6,
+      1,
+      8,
+      7
     ],
     "cart": [
       {
@@ -50,11 +58,71 @@
         "qty": 1
       },
       {
-        "productId": 3,
+        "productId": 6,
         "qty": 1
       }
     ],
     "createdAt": "2025-12-08T17:52:27.041Z",
-    "updatedAt": "2025-12-10T12:17:13.345Z"
+    "updatedAt": "2025-12-16T17:23:02.708Z"
+  },
+  {
+    "id": "1db62939-1d6f-4153-a2b0-9a5732d0c7f1",
+    "name": "Dhiraj ",
+    "email": "dhsh@gmqil.cok",
+    "passwordHash": "$2a$10$wE1YtGLkYdl0X.pEjr5XsOPWiTp6RCckivAVsgjWPUKypjMmfwpKW",
+    "role": "user",
+    "wishlist": [],
+    "cart": [],
+    "createdAt": "2026-01-05T06:50:44.213Z",
+    "updatedAt": "2026-01-05T06:55:36.184Z"
+  },
+  {
+    "id": "836bf603-f558-42ba-8b26-6b61d1db7ba3",
+    "name": "rohan",
+    "email": "rohan@gmail.com",
+    "passwordHash": "$2a$10$fFWL9N5mxUCJDQU0X840jeKUWQPJx2/rou2iY13EOEGPkDVpWEm/y",
+    "role": "user",
+    "wishlist": [
+      16,
+      9
+    ],
+    "cart": [
+      {
+        "productId": 4,
+        "qty": 1
+      },
+      {
+        "productId": 10,
+        "qty": 1
+      },
+      {
+        "productId": 9,
+        "qty": 1
+      }
+    ],
+    "createdAt": "2026-01-05T18:34:46.813Z",
+    "updatedAt": "2026-01-05T18:39:41.631Z"
+  },
+  {
+    "id": "21e926d5-4f57-425b-b7eb-e646b5beecc4",
+    "name": "Sandeep",
+    "email": "sandeep@gmail.com",
+    "passwordHash": "$2a$10$UtwQ8pOZhZxyPyFcgpm0peud/7dfR0G/.tUgm8vuU3IAmtmkuyhaq",
+    "role": "user",
+    "wishlist": [],
+    "cart": [],
+    "createdAt": "2026-01-05T18:40:35.628Z",
+    "updatedAt": "2026-01-05T18:40:35.628Z"
+  },
+  {
+    "id": "37668df4-3519-48c2-8bc4-46b8bb1d69ff",
+    "name": "anil",
+    "email": "anil@gmail.com",
+    "passwordHash": "$2a$10$YsyPcMRYYvZQLft6hxCN3ulOJOvjvuOS9GtlFNPYLTenvzCe/cKzu",
+    "role": "user",
+    "wishlist": [],
+    "cart": [],
+    "createdAt": "2026-01-05T18:58:32.253Z",
+    "updatedAt": "2026-01-05T18:58:32.253Z"
   }
 ]

@@ -210,5 +210,2489 @@
     },
     "createdAt": "2025-12-10T12:00:19.288Z",
     "updatedAt": "2025-12-10T12:00:19.288Z"
+  },
+  {
+    "id": "43e3906d-dd5b-42dd-9f89-0d39ac1adb95",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 6
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1
+      }
+    ],
+    "total": 127992,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T11:45:05.705Z",
+    "updatedAt": "2025-12-13T11:45:05.705Z"
+  },
+  {
+    "id": "916b7bbf-5b9d-4c86-9baa-a269b3b84cda",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1
+      }
+    ],
+    "total": 27998,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T14:49:44.061Z",
+    "updatedAt": "2025-12-13T14:49:44.061Z"
+  },
+  {
+    "id": "941ea69d-598d-473e-96bd-7303dee0b97f",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      }
+    ],
+    "total": 1999,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "86467",
+      "pincode": "Hyderabad",
+      "state": "Hkjc",
+      "city": "Test",
+      "buildingName": "Coupon",
+      "area": "Hydrate",
+      "type": "home",
+      "location": "Green"
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T15:06:14.981Z",
+    "updatedAt": "2025-12-13T15:06:14.981Z"
+  },
+  {
+    "id": "e4117066-f9df-4b49-900e-2fdde504ff39",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      }
+    ],
+    "total": 1999,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T15:33:20.450Z",
+    "updatedAt": "2025-12-13T15:33:20.450Z"
+  },
+  {
+    "id": "58ceedb5-ae26-4dcb-8ccf-94b56a3a0620",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1
+      }
+    ],
+    "total": 1999,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T15:40:24.917Z",
+    "updatedAt": "2025-12-13T15:40:24.917Z"
+  },
+  {
+    "id": "e8d35680-73be-40ae-b2a3-8339d0810197",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 399.8,
+      "finalTotal": 1599.2
+    },
+    "total": 1599.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T15:51:32.289Z",
+    "updatedAt": "2025-12-13T15:51:32.289Z"
+  },
+  {
+    "id": "2bf0a6ca-34ee-4e44-aa0a-317562bcca39",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 115998,
+      "discount": 23199.600000000002,
+      "finalTotal": 92798.4
+    },
+    "total": 92798.4,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-13T15:55:08.276Z",
+    "updatedAt": "2025-12-13T15:55:08.276Z"
+  },
+  {
+    "id": "bf1c757c-67f8-4f14-8661-4c9085c2d517",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 100,
+      "finalTotal": 25899
+    },
+    "total": 25899,
+    "couponCode": "FLAT100",
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T08:20:35.859Z",
+    "updatedAt": "2025-12-14T08:20:35.859Z"
+  },
+  {
+    "id": "388c7647-1d95-4ded-9e4e-383b3752140b",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T08:28:26.969Z",
+    "updatedAt": "2025-12-14T08:28:26.969Z"
+  },
+  {
+    "id": "0ac06284-4030-471d-90be-8dd6da003fcd",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T08:30:10.925Z",
+    "updatedAt": "2025-12-14T08:30:10.925Z"
+  },
+  {
+    "id": "f0df8d68-7c6a-48d4-9598-7e1de7f99725",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T08:49:47.606Z",
+    "updatedAt": "2025-12-14T08:49:47.606Z"
+  },
+  {
+    "id": "fdeec897-9df3-48ec-95a4-b0f7aae4590f",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T08:50:16.453Z",
+    "updatedAt": "2025-12-14T08:50:16.453Z"
+  },
+  {
+    "id": "596a102d-4e2e-401a-81c7-552d18665db3",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 91998,
+      "discount": 0,
+      "finalTotal": 91998
+    },
+    "total": 91998,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-14T10:14:08.868Z",
+    "updatedAt": "2025-12-14T10:14:08.868Z"
+  },
+  {
+    "id": "d1fbc772-eea4-428e-8c63-5c34c6598ebf",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-15T10:46:31.967Z",
+    "updatedAt": "2025-12-15T10:46:31.967Z"
+  },
+  {
+    "id": "d4f79c49-59b9-4b6e-9e16-22a3c037e985",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-15T10:47:56.305Z",
+    "updatedAt": "2025-12-15T10:47:56.305Z"
+  },
+  {
+    "id": "0ba2e2fd-5a67-44e3-a975-8d3160946e49",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.jpg"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 143996,
+      "discount": 28799.2,
+      "finalTotal": 115196.8
+    },
+    "total": 115196.8,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-15T16:59:17.101Z",
+    "updatedAt": "2025-12-15T16:59:17.101Z"
+  },
+  {
+    "id": "8e35abed-aa85-4431-be48-51a6fcfd0bbb",
+    "userId": "e844499e-3336-49be-beeb-1bef0a41ce2d",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      },
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 2,
+        "image": "/data/images/mobiles/galaxy_s23.jpg"
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 4,
+        "image": "/data/images/earphones.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 155994,
+      "discount": 31198.800000000003,
+      "finalTotal": 124795.2
+    },
+    "total": 124795.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Rohit",
+      "phoneNo": "8754",
+      "pincode": "Hjjf",
+      "state": "Jjvdx",
+      "city": "Telangana",
+      "buildingName": "Gury",
+      "area": "Bhzf",
+      "type": "home",
+      "location": "Ugf",
+      "addressId": 5
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-16T06:01:07.620Z",
+    "updatedAt": "2025-12-16T06:01:07.620Z"
+  },
+  {
+    "id": "39f37e2c-837d-48c4-8f43-b8271ec0a957",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 5199.8,
+      "finalTotal": 20799.2
+    },
+    "total": 20799.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-17T15:23:03.104Z",
+    "updatedAt": "2025-12-17T15:23:03.104Z"
+  },
+  {
+    "id": "687fc26a-3373-4b8c-9a11-afc063cf572f",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 16000,
+      "discount": 0,
+      "finalTotal": 16000
+    },
+    "total": 16000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Esam Dinesh",
+      "phoneNo": "6309877217",
+      "pincode": "507123",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "buildingName": "Indhira bhavan",
+      "area": "heetstreet",
+      "type": "home",
+      "location": "watertank"
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-17T15:44:11.527Z",
+    "updatedAt": "2025-12-17T15:44:11.527Z"
+  },
+  {
+    "id": "440ee9e1-6a86-4875-8a4a-12d9e7c87a32",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      },
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 2,
+        "image": "/data/images/mobiles/galaxy_s23.jpg"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 147998,
+      "discount": 29599.600000000002,
+      "finalTotal": 118398.4
+    },
+    "total": 118398.4,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "",
+      "phoneNo": "",
+      "pincode": "",
+      "state": "",
+      "city": "",
+      "buildingName": "",
+      "area": "",
+      "type": "home",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-17T16:52:53.214Z",
+    "updatedAt": "2025-12-17T16:52:53.214Z"
+  },
+  {
+    "id": "d645dd42-1608-44bf-9032-cf0967b1aa8e",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.jpg"
+      },
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.jpg"
+      },
+      {
+        "productId": 32,
+        "name": "Galaxy Watch 5",
+        "price": 42000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/galaxy_watch_5.jpg"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      },
+      {
+        "productId": 10,
+        "name": "Dell Inspiron",
+        "price": 20000,
+        "qty": 2,
+        "image": "/data/images/laptops/dell_inspiron.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 137999,
+      "discount": 27599.800000000003,
+      "finalTotal": 110399.2
+    },
+    "total": 110399.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-18T05:47:35.348Z",
+    "updatedAt": "2025-12-18T05:47:35.348Z"
+  },
+  {
+    "id": "b93fc1de-36cd-42f0-844e-c8512c7e1fc0",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 39000,
+      "discount": 31200,
+      "finalTotal": 7800
+    },
+    "total": 7800,
+    "couponCode": "NEWYEAR80",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-18T09:29:39.239Z",
+    "updatedAt": "2025-12-18T09:29:39.239Z"
+  },
+  {
+    "id": "4b1659ab-4567-411b-9f1b-51152cdd3125",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.jpg"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 3,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 116997,
+      "discount": 0,
+      "finalTotal": 116997
+    },
+    "total": 116997,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-21T18:01:37.473Z",
+    "updatedAt": "2025-12-21T18:01:37.473Z"
+  },
+  {
+    "id": "95c8a8a1-fb19-4e30-8c09-c02acf47ddd8",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 25,
+        "name": "Boat Rockerz 255",
+        "price": 35000,
+        "qty": 1,
+        "image": "/data/images/audio/boat_rockerz_255.jpg"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 100998,
+      "discount": 50499,
+      "finalTotal": 50499
+    },
+    "total": 50499,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-21T18:23:47.546Z",
+    "updatedAt": "2025-12-21T18:23:47.546Z"
+  },
+  {
+    "id": "2a27a2c0-1d1a-46a8-b40e-7ea0afcb1454",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 39000,
+      "discount": 0,
+      "finalTotal": 39000
+    },
+    "total": 39000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-22T16:33:07.521Z",
+    "updatedAt": "2025-12-22T16:33:07.521Z"
+  },
+  {
+    "id": "1844c5e9-780a-4fca-9409-d8a6be034b53",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 64999,
+      "discount": 32499.5,
+      "finalTotal": 32499.5
+    },
+    "total": 32499.5,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-22T16:52:45.389Z",
+    "updatedAt": "2025-12-22T16:52:45.389Z"
+  },
+  {
+    "id": "50319ce7-2eeb-478b-97ec-553ba9daac99",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 78999,
+      "discount": 1000,
+      "finalTotal": 77999
+    },
+    "total": 77999,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-22T16:56:11.109Z",
+    "updatedAt": "2025-12-22T16:56:11.109Z"
+  },
+  {
+    "id": "935c02c7-a249-4e39-878b-a7cac2ef28cf",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      },
+      {
+        "productId": 5,
+        "name": "Galaxy S22",
+        "price": 15000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s22.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 119998,
+      "discount": 1000,
+      "finalTotal": 118998
+    },
+    "total": 118998,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-22T18:08:43.068Z",
+    "updatedAt": "2025-12-22T18:08:43.068Z"
+  },
+  {
+    "id": "d1bb8ea8-7acb-4d52-9154-be603b124ba9",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 2,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      },
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 92999,
+      "discount": 1000,
+      "finalTotal": 91999
+    },
+    "total": 91999,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-23T17:15:11.762Z",
+    "updatedAt": "2025-12-23T17:15:11.762Z"
+  },
+  {
+    "id": "8a6af0e7-54cf-4b0d-b0cf-205eb6047db9",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Apple Watch 8",
+        "price": 39000,
+        "qty": 2,
+        "image": "/data/images/smartwatches/apple_watch_8.png"
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 2,
+        "image": "/data/images/earphones.png"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 95998,
+      "discount": 100,
+      "finalTotal": 95898
+    },
+    "total": 95898,
+    "couponCode": "FLAT100",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T05:45:07.451Z",
+    "updatedAt": "2025-12-24T05:45:07.451Z"
+  },
+  {
+    "id": "7c2a430e-4357-4b14-bad4-59fe44939515",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 1,
+        "image": "/data/images/earphones.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 1999,
+      "discount": 0,
+      "finalTotal": 1999
+    },
+    "total": 1999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T05:50:57.003Z",
+    "updatedAt": "2025-12-24T05:50:57.003Z"
+  },
+  {
+    "id": "90f0bac7-0e26-4ce3-9772-46a9196960b9",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T05:53:14.435Z",
+    "updatedAt": "2025-12-24T05:53:14.435Z"
+  },
+  {
+    "id": "be295c90-938e-4620-aafb-5ef10109ea53",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 141997,
+      "discount": 0,
+      "finalTotal": 141997
+    },
+    "total": 141997,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T08:42:12.670Z",
+    "updatedAt": "2025-12-24T08:42:12.670Z"
+  },
+  {
+    "id": "e91a9a69-708a-4577-b2ec-9d9d23a6f0ba",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 141997,
+      "discount": 0,
+      "finalTotal": 141997
+    },
+    "total": 141997,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T08:45:23.279Z",
+    "updatedAt": "2025-12-24T08:45:23.279Z"
+  },
+  {
+    "id": "3b7ad7d3-55b7-4488-bacc-a8b464b30e31",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 2,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 141997,
+      "discount": 0,
+      "finalTotal": 141997
+    },
+    "total": 141997,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T08:50:22.572Z",
+    "updatedAt": "2025-12-24T08:50:22.572Z"
+  },
+  {
+    "id": "64098092-9857-43b6-a324-583503478288",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 14000,
+      "discount": 1000,
+      "finalTotal": 13000
+    },
+    "total": 13000,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T09:03:48.969Z",
+    "updatedAt": "2025-12-24T09:03:48.969Z"
+  },
+  {
+    "id": "852ee2d1-b72e-4ca6-8d45-7b35eb7f9313",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 15,
+        "name": "Yoga Pro",
+        "price": 25000,
+        "qty": 1,
+        "image": "/data/images/laptops/yoga_pro.png"
+      },
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      },
+      {
+        "productId": 16,
+        "name": "HP Pavilion",
+        "price": 26000,
+        "qty": 1,
+        "image": "/data/images/laptops/hp_pavilion.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 140999,
+      "discount": 70499.5,
+      "finalTotal": 70499.5
+    },
+    "total": 70499.5,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T14:34:44.104Z",
+    "updatedAt": "2025-12-24T14:34:44.104Z"
+  },
+  {
+    "id": "b121493b-2831-43e4-82fa-94be1911bee0",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 2,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 179998,
+      "discount": 0,
+      "finalTotal": 179998
+    },
+    "total": 179998,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T17:28:30.905Z",
+    "updatedAt": "2025-12-24T17:28:30.905Z"
+  },
+  {
+    "id": "c9fca5ba-ecdc-4169-adac-f76fd163b9ba",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 39999,
+      "discount": 1000,
+      "finalTotal": 38999
+    },
+    "total": 38999,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-24T18:42:27.298Z",
+    "updatedAt": "2025-12-24T18:42:27.298Z"
+  },
+  {
+    "id": "6523cacf-fa13-4ae5-ac87-aa9cd1dfafad",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 16000,
+      "discount": 0,
+      "finalTotal": 16000
+    },
+    "total": 16000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "6309877217",
+      "pincode": "507123",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "buildingName": "",
+      "area": "paradise",
+      "type": "home",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-25T08:46:41.475Z",
+    "updatedAt": "2025-12-25T08:46:41.475Z"
+  },
+  {
+    "id": "9ccedeb9-643b-4c12-8e92-33d2d0cee1b4",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 14000,
+      "discount": 0,
+      "finalTotal": 14000
+    },
+    "total": 14000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Hamsh",
+      "phoneNo": "6309877217",
+      "pincode": "507684",
+      "state": "Tel",
+      "city": "Hyd",
+      "buildingName": "",
+      "area": "shadm",
+      "type": "home",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-26T16:10:22.867Z",
+    "updatedAt": "2025-12-26T16:10:22.867Z"
+  },
+  {
+    "id": "772d18cb-0cb2-4901-9f43-2ed74120c2f8",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 10,
+        "name": "Dell Inspiron",
+        "price": 20000,
+        "qty": 1,
+        "image": "/data/images/laptops/dell_inspiron.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 20000,
+      "discount": 100,
+      "finalTotal": 19900
+    },
+    "total": 19900,
+    "couponCode": "FLAT100",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-26T16:52:45.092Z",
+    "updatedAt": "2025-12-26T16:52:45.092Z"
+  },
+  {
+    "id": "2aeb4d76-20e9-4013-a290-607339547a0a",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 89999,
+      "discount": 44999.5,
+      "finalTotal": 44999.5
+    },
+    "total": 44999.5,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-26T18:05:32.475Z",
+    "updatedAt": "2025-12-26T18:05:32.475Z"
+  },
+  {
+    "id": "770eebe0-52bf-4735-9bfb-f3eb1a3bbce0",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 5,
+        "name": "Galaxy S22",
+        "price": 15000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s22.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 15000,
+      "discount": 7500,
+      "finalTotal": 7500
+    },
+    "total": 7500,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-26T18:26:10.373Z",
+    "updatedAt": "2025-12-26T18:26:10.373Z"
+  },
+  {
+    "id": "287e00c7-8a9e-43e5-9a30-926648680d31",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 9,
+        "name": "Realme 11",
+        "price": 19000,
+        "qty": 1,
+        "image": "/data/images/mobiles/realme_11.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 19000,
+      "discount": 0,
+      "finalTotal": 19000
+    },
+    "total": 19000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:35:13.230Z",
+    "updatedAt": "2025-12-30T15:35:13.230Z"
+  },
+  {
+    "id": "4e587c2d-fa3c-43b5-8ae2-6749ae139126",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:35:53.289Z",
+    "updatedAt": "2025-12-30T15:35:53.289Z"
+  },
+  {
+    "id": "fc333ee9-4902-4023-81dc-29dcf8435b7e",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:42:59.850Z",
+    "updatedAt": "2025-12-30T15:42:59.850Z"
+  },
+  {
+    "id": "304698d0-21dc-4e1a-aa24-d19bb5e35802",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:45:59.101Z",
+    "updatedAt": "2025-12-30T15:45:59.101Z"
+  },
+  {
+    "id": "a0ebe63f-ab55-402a-8a3c-bd545ebe4ae6",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 14000,
+      "discount": 0,
+      "finalTotal": 14000
+    },
+    "total": 14000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:52:13.314Z",
+    "updatedAt": "2025-12-30T15:52:13.314Z"
+  },
+  {
+    "id": "e7532a0c-13ab-4a9f-bdec-558587cb969d",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 14000,
+      "discount": 0,
+      "finalTotal": 14000
+    },
+    "total": 14000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T15:53:10.818Z",
+    "updatedAt": "2025-12-30T15:53:10.818Z"
+  },
+  {
+    "id": "b92a7b15-2ac2-4b28-9431-e8f60bea6db3",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 0,
+      "finalTotal": 25999
+    },
+    "total": 25999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T16:03:09.992Z",
+    "updatedAt": "2025-12-30T16:03:09.992Z"
+  },
+  {
+    "id": "0a772fa8-110c-4799-9948-677b8af1efdd",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 89999,
+      "discount": 0,
+      "finalTotal": 89999
+    },
+    "total": 89999,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T16:04:45.587Z",
+    "updatedAt": "2025-12-30T16:04:45.587Z"
+  },
+  {
+    "id": "c167eba1-c447-415b-b223-0d6111817e5c",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 16000,
+      "discount": 0,
+      "finalTotal": 16000
+    },
+    "total": 16000,
+    "couponCode": null,
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2025-12-30T16:05:22.235Z",
+    "updatedAt": "2025-12-30T16:05:22.235Z"
+  },
+  {
+    "id": "3c6bf9be-b254-48c9-9886-571cf3fba412",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 16000,
+      "discount": 1000,
+      "finalTotal": 15000
+    },
+    "total": 15000,
+    "couponCode": "FLAT1000",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2026-01-02T10:19:14.077Z",
+    "updatedAt": "2026-01-02T10:19:14.077Z"
+  },
+  {
+    "id": "551a20d8-c909-44a9-82e1-f27a6c4670b1",
+    "userId": "1db62939-1d6f-4153-a2b0-9a5732d0c7f1",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Smartphone X",
+        "price": 25999,
+        "qty": 1,
+        "image": "/data/images/phone.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 25999,
+      "discount": 5199.8,
+      "finalTotal": 20799.2
+    },
+    "total": 20799.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Sg",
+      "phoneNo": "6888558657",
+      "pincode": "586666",
+      "state": "Fg",
+      "city": "Fh",
+      "buildingName": "",
+      "area": "gh",
+      "type": "home",
+      "location": ""
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2026-01-05T06:54:17.530Z",
+    "updatedAt": "2026-01-05T06:54:17.530Z"
+  },
+  {
+    "id": "731ac100-a98b-4c23-8d4e-1b4b614e5d24",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Laptop Pro 14",
+        "price": 89999,
+        "qty": 1,
+        "image": "/data/images/laptop.jpg"
+      },
+      {
+        "productId": 4,
+        "name": "Galaxy S21",
+        "price": 14000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s21.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 103999,
+      "discount": 20799.800000000003,
+      "finalTotal": 83199.2
+    },
+    "total": 83199.2,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2026-01-06T07:39:11.697Z",
+    "updatedAt": "2026-01-06T07:39:11.697Z"
+  },
+  {
+    "id": "2a5bcf73-a0c4-409d-ab24-0440c4b5cbca",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 6,
+        "name": "Galaxy S23",
+        "price": 16000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s23.png"
+      },
+      {
+        "productId": 28,
+        "name": "Apple Watch 7",
+        "price": 38000,
+        "qty": 1,
+        "image": "/data/images/smartwatches/apple_watch_7.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 54000,
+      "discount": 27000,
+      "finalTotal": 27000
+    },
+    "total": 27000,
+    "couponCode": "CHRISTMAS50",
+    "status": "pending",
+    "address": {
+      "name": "Dinesh",
+      "phoneNo": "9876543210",
+      "pincode": "122002",
+      "state": "Haryana",
+      "city": "Gurgaon",
+      "buildingName": "11 MG Road",
+      "area": "DLF Phase 2",
+      "type": "home",
+      "location": "Near CyberHub",
+      "addressId": 1
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2026-01-06T08:45:59.291Z",
+    "updatedAt": "2026-01-06T08:45:59.291Z"
+  },
+  {
+    "id": "60728dfb-72d2-4a69-a737-5dbe4ddef0b9",
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "items": [
+      {
+        "productId": 5,
+        "name": "Galaxy S22",
+        "price": 15000,
+        "qty": 1,
+        "image": "/data/images/mobiles/galaxy_s22.png"
+      },
+      {
+        "productId": 1,
+        "name": "Wireless Earbuds",
+        "price": 1999,
+        "qty": 2,
+        "image": "/data/images/earphones.png"
+      }
+    ],
+    "totals": {
+      "subtotal": 18998,
+      "discount": 3799.6000000000004,
+      "finalTotal": 15198.4
+    },
+    "total": 15198.4,
+    "couponCode": "NEWYEAR20",
+    "status": "pending",
+    "address": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank",
+      "addressId": 6
+    },
+    "payment": {
+      "method": "cod",
+      "txnId": null
+    },
+    "createdAt": "2026-01-06T13:56:51.572Z",
+    "updatedAt": "2026-01-06T13:56:51.572Z"
   }
 ]

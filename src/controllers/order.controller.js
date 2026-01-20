@@ -24,6 +24,7 @@ function pickAddressFields(obj = {}) {
   };
 }
 
+
 export const createOrderFromCart = async (req, res) => {
   const users = await readJSON(USERS_FILE);
   const products = await readJSON(PRODUCTS_FILE);
@@ -31,31 +32,51 @@ export const createOrderFromCart = async (req, res) => {
 
   const user = users.find(u => u.id === req.user.id);
   if (!user) return res.status(404).json({ message: 'User not found' });
-  if (!user.cart || !user.cart.length) return res.status(400).json({ message: 'Cart empty' });
 
-  // Build items & verify stock
+  // ---- Decide source of items: body.items OR user.cart ----
+  const bodyItems = Array.isArray(req.body.items) ? req.body.items : null;
+  const cartItems = user.cart || [];
+
+  if (!bodyItems && (!cartItems || !cartItems.length)) {
+    return res.status(400).json({ message: 'Cart empty' });
+  }
+
+  // ---- Build items and verify stock ----
   const items = [];
-  for (const c of user.cart) {
+  const source = bodyItems || cartItems; // [{ productId, qty }]
+
+  for (const c of source) {
     const p = products.find(px => Number(px.id) === Number(c.productId));
     if (!p || p.active === false) {
       return res.status(404).json({ message: `Product not found: ${c.productId}` });
     }
-    if (Number(p.stock) < Number(c.qty)) {
+    const qty = Number(c.qty || 1);
+    if (Number(p.stock) < qty) {
       return res.status(409).json({ message: `Insufficient stock for ${p.name}` });
     }
     items.push({
       productId: Number(p.id),
       name: p.name,
       price: Number(p.price || 0),
-      qty: Number(c.qty || 1)
+      qty,
+      image: Array.isArray(p.images) ? p.images[0] : null  // ✅ help Orders.jsx render images
     });
   }
 
-  const total = items.reduce((sum, i) => sum + i.price * i.qty, 0);
+  // ---- Compute server-side subtotal (original total) ----
+  const computedSubtotal = items.reduce((sum, i) => sum + i.price * i.qty, 0);
 
-  // --- Address handling: either addressId or inline address (only allowed fields) ---
+  // ---- Accept client-provided totals (minimal) ----
+  const providedTotals = req.body.totals || {};
+  const subtotal = Number(providedTotals.subtotal ?? computedSubtotal);
+  const discount = Number(providedTotals.discount ?? 0);
+  const finalTotal = Number(
+    providedTotals.finalTotal ?? Math.max(0, subtotal - discount)
+  );
+  const couponCode = req.body.couponCode || null;
+
+  // ---- Address handling (unchanged) ----
   let address = null;
-
   if (req.body.addressId != null) {
     const allAddr = await readJSON(ADDR_FILE);
     const found = allAddr.find(
@@ -64,19 +85,15 @@ export const createOrderFromCart = async (req, res) => {
     if (!found) {
       return res.status(404).json({ message: 'Address not found for this user' });
     }
-    // We stored address as { id, userId, data:{...fields}, createdAt, updatedAt }
-    // Embed only the whitelisted fields; add the addressId reference for traceability
     address = { ...pickAddressFields(found.data), addressId: found.id };
   } else if (req.body.address) {
-    // Inline address: pick only allowed fields from payload
     address = pickAddressFields(req.body.address);
   }
-
   if (!address) {
     return res.status(400).json({ message: 'Address required (send addressId or address)' });
   }
 
-  // Decrement stock in products.json
+  // ---- Decrement stock ----
   for (const i of items) {
     const idx = products.findIndex(px => Number(px.id) === Number(i.productId));
     if (idx > -1) {
@@ -85,21 +102,27 @@ export const createOrderFromCart = async (req, res) => {
     }
   }
 
+  // ---- Create order (persist totals and coupon) ----
   const now = new Date().toISOString();
   const order = {
     id: crypto.randomUUID(),
     userId: user.id,
-    items,
-    total,
+    items,                                      // includes item.image for UI
+    totals: { subtotal, discount, finalTotal }, // ✅ NEW: persisted totals
+    total: finalTotal,                          // ✅ legacy field shows discounted total
+    couponCode,                                 // ✅ saved for reference
     status: 'pending',
-    address, // only allowed fields (plus addressId if sourced from book)
+    address,
     payment: { method: req.body.paymentMethod || 'cod', txnId: null },
     createdAt: now,
     updatedAt: now
   };
 
   orders.push(order);
-  user.cart = [];
+  // If we created from user's cart, clear it
+  if (!bodyItems) {
+    user.cart = [];
+  }
   user.updatedAt = now;
 
   await writeJSON(PRODUCTS_FILE, products);
@@ -107,6 +130,7 @@ export const createOrderFromCart = async (req, res) => {
   await writeJSON(ORDERS_FILE, orders);
 
   return res.status(201).json(order);
+
 };
 
 export const getMyOrders = async (req, res) => {

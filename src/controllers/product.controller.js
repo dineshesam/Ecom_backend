@@ -5,22 +5,52 @@ const PRODUCTS_FILE = 'products.json';
 
 function toNumber(val) { const n = Number(val); return Number.isFinite(n) ? n : val; }
 
+
 export const listProducts = async (req, res) => {
-  const { q, category, min, max, page = 1, limit = 20 } = req.query;
-  const products = await readJSON(PRODUCTS_FILE);
+  const { q, category, min, max, page = 1, limit = 20, sort = 'relevance' } = req.query;
+  const products = await readJSON(PRODUCTS_FILE); // file DB
   let filtered = products.filter(p => p.active !== false);
 
-  if (q) filtered = filtered.filter(p => (p.name || '').toLowerCase().includes(String(q).toLowerCase()));
-  if (category) filtered = filtered.filter(p => (p.category || '').toLowerCase() === String(category).toLowerCase());
-  if (min || max) filtered = filtered.filter(p => {
-    const price = Number(p.price || 0);
-    return (min ? price >= Number(min) : true) && (max ? price <= Number(max) : true);
-  });
+  // 🔎 search across name (extend to brand/description if desired)
+  if (q) filtered = filtered.filter(p => (p.name ?? '').toLowerCase().includes(String(q).toLowerCase()));
 
+  // 🏷️ exact category match
+  if (category) filtered = filtered.filter(p => (p.category ?? '').toLowerCase() === String(category).toLowerCase());
+
+  // 💰 price range
+  if (min || max) {
+    filtered = filtered.filter(p => {
+      const price = Number(p.price ?? 0);
+      return (min ? price >= Number(min) : true) && (max ? price <= Number(max) : true);
+    });
+  }
+  
+if (req.query.brand) {
+  const b = String(req.query.brand).toLowerCase();
+  filtered = filtered.filter(p => String(p.brand ?? '').toLowerCase() === b);
+}
+
+
+  // 🔁 sort
+  const by = String(sort);
+  if (by === 'price_low') {
+    filtered.sort((a, b) => Number(a.price ?? 0) - Number(b.price ?? 0));
+  } else if (by === 'price_high') {
+    filtered.sort((a, b) => Number(b.price ?? 0) - Number(a.price ?? 0));
+  } else if (by === 'newest') {
+    filtered.sort((a, b) => new Date(b.createdAt ?? 0) - new Date(a.createdAt ?? 0));
+  } else if (by === 'name') {
+    filtered.sort((a, b) => String(a.name ?? '').localeCompare(String(b.name ?? '')));
+  }
+  // 'relevance' → keep natural order; later we can compute a score.
+
+  // 📄 pagination
   const start = (Number(page) - 1) * Number(limit);
   const items = filtered.slice(start, start + Number(limit));
+
   res.json({ items, total: filtered.length, page: Number(page), limit: Number(limit) });
 };
+
 
 export const getProduct = async (req, res) => {
   const products = await readJSON(PRODUCTS_FILE);
@@ -38,6 +68,7 @@ export const createProduct = async (req, res) => {
   const p = {
     id: nextId,
     name: req.body.name,
+    brand: req.body.brand || '',
     description: req.body.description || '',
     price: Number(req.body.price || 0),
     stock: Number(req.body.stock || 0),

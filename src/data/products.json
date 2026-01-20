@@ -4,41 +4,728 @@
     "name": "Wireless Earbuds",
     "description": "Bluetooth 5.3, ANC",
     "price": 1999,
-    "stock": 42,
+    "stock": 0,
     "images": [
-      "/data/images/earphones.jpg"
+      "/data/images/earphones.png"
     ],
     "category": "audio",
     "active": true,
     "createdAt": "2025-12-07T09:49:41.922Z",
-    "updatedAt": "2025-12-10T12:00:19.288Z"
+    "updatedAt": "2026-01-06T13:56:51.572Z"
   },
   {
     "id": 2,
     "name": "Smartphone X",
     "description": "AMOLED, 8GB RAM, 128GB",
     "price": 25999,
-    "stock": 95,
+    "stock": 61,
     "images": [
-      "/data/images/phone.jpg"
+      "/data/images/phone.png"
     ],
     "category": "mobiles",
     "active": true,
     "createdAt": "2025-12-07T09:49:41.922Z",
-    "updatedAt": "2025-12-10T12:00:19.288Z"
+    "updatedAt": "2026-01-05T06:54:17.530Z"
   },
   {
     "id": 3,
     "name": "Laptop Pro 14",
     "description": "i7, 16GB RAM, 512GB SSD",
     "price": 89999,
-    "stock": 27,
+    "stock": 12,
     "images": [
       "/data/images/laptop.jpg"
     ],
     "category": "laptops",
     "active": true,
     "createdAt": "2025-12-07T09:49:41.922Z",
-    "updatedAt": "2025-12-10T11:52:51.170Z"
+    "updatedAt": "2026-01-06T07:39:11.697Z"
+  },
+  {
+    "id": 4,
+    "name": "Galaxy S21",
+    "brand": "Samsung",
+    "description": "Galaxy S21 premium product",
+    "price": 14000,
+    "stock": 11,
+    "images": [
+      "/data/images/mobiles/galaxy_s21.png",
+      "/data/images/mobiles/galaxy_s21_2.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2026-01-06T07:39:11.697Z"
+  },
+  {
+    "id": 5,
+    "name": "Galaxy S22",
+    "brand": "Samsung",
+    "description": "Galaxy S22 premium product",
+    "price": 15000,
+    "stock": 22,
+    "images": [
+      "/data/images/mobiles/galaxy_s22.png",
+      "/data/images/mobiles/galaxy_s22_2.png",
+      "/data/images/mobiles/galaxy_s22_3.png",
+      "/data/images/mobiles/galaxy_s22_4.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2026-01-06T13:56:51.572Z"
+  },
+  {
+    "id": 6,
+    "name": "Galaxy S23",
+    "brand": "Samsung",
+    "description": "Galaxy S23 premium product",
+    "price": 16000,
+    "stock": 16,
+    "images": [
+      "/data/images/mobiles/galaxy_s23.png",
+      "/data/images/mobiles/galaxy_s23_2.png",
+      "/data/images/mobiles/galaxy_s23_3.png",
+      "/data/images/mobiles/galaxy_s23_4.png",
+      "/data/images/mobiles/galaxy_s23_5.png",
+      "/data/images/mobiles/galaxy_s23_6.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2026-01-06T08:45:59.291Z"
+  },
+  {
+    "id": 7,
+    "name": "Realme 9",
+    "brand": "Realme",
+    "description": "Realme 9 premium product",
+    "price": 17000,
+    "stock": 27,
+    "images": [
+      "/data/images/mobiles/realme_9.png",
+      "/data/images/mobiles/realme_9_2.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 8,
+    "name": "Realme 10",
+    "brand": "Realme",
+    "description": "Realme 10 premium product",
+    "price": 18000,
+    "stock": 28,
+    "images": [
+      "/data/images/mobiles/realme_10.png",
+      "/data/images/mobiles/realme_10_2.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 9,
+    "name": "Realme 11",
+    "brand": "Realme",
+    "description": "Realme 11 premium product",
+    "price": 19000,
+    "stock": 28,
+    "images": [
+      "/data/images/mobiles/realme_11.png",
+      "/data/images/mobiles/realme_11_2.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-30T15:35:13.230Z"
+  },
+  {
+    "id": 10,
+    "name": "Dell Inspiron",
+    "brand": "Dell",
+    "description": "Dell Inspiron premium product",
+    "price": 20000,
+    "stock": 27,
+    "images": [
+      "/data/images/laptops/dell_inspiron.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-26T16:52:45.092Z"
+  },
+  {
+    "id": 11,
+    "name": "Dell XPS",
+    "brand": "Dell",
+    "description": "Dell XPS premium product",
+    "price": 21000,
+    "stock": 31,
+    "images": [
+      "/data/images/laptops/dell_xps.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 12,
+    "name": "Dell Latitude",
+    "brand": "Dell",
+    "description": "Dell Latitude premium product",
+    "price": 22000,
+    "stock": 32,
+    "images": [
+      "/data/images/laptops/dell_latitude.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 13,
+    "name": "ThinkPad X1",
+    "brand": "Lenovo",
+    "description": "ThinkPad X1 premium product",
+    "price": 23000,
+    "stock": 33,
+    "images": [
+      "/data/images/laptops/thinkpad_x1.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 14,
+    "name": "IdeaPad Slim",
+    "brand": "Lenovo",
+    "description": "IdeaPad Slim premium product",
+    "price": 24000,
+    "stock": 34,
+    "images": [
+      "/data/images/laptops/ideapad_slim.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 15,
+    "name": "Yoga Pro",
+    "brand": "Lenovo",
+    "description": "Yoga Pro premium product",
+    "price": 25000,
+    "stock": 34,
+    "images": [
+      "/data/images/laptops/yoga_pro.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-24T14:34:44.104Z"
+  },
+  {
+    "id": 16,
+    "name": "HP Pavilion",
+    "brand": "HP",
+    "description": "HP Pavilion premium product",
+    "price": 26000,
+    "stock": 35,
+    "images": [
+      "/data/images/laptops/hp_pavilion.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-24T14:34:44.104Z"
+  },
+  {
+    "id": 17,
+    "name": "HP Envy",
+    "brand": "HP",
+    "description": "HP Envy premium product",
+    "price": 27000,
+    "stock": 37,
+    "images": [
+      "/data/images/laptops/hp_envy.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 18,
+    "name": "HP Spectre",
+    "brand": "HP",
+    "description": "HP Spectre premium product",
+    "price": 28000,
+    "stock": 38,
+    "images": [
+      "/data/images/laptops/hp_spectre.png"
+    ],
+    "category": "laptops",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 19,
+    "name": "WH-1000XM4",
+    "brand": "Sony",
+    "description": "WH-1000XM4 premium product",
+    "price": 29000,
+    "stock": 39,
+    "images": [
+      "/data/images/audio/wh-1000xm4.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 20,
+    "name": "WH-1000XM5",
+    "brand": "Sony",
+    "description": "WH-1000XM5 premium product",
+    "price": 30000,
+    "stock": 40,
+    "images": [
+      "/data/images/audio/wh-1000xm5.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 21,
+    "name": "WF-1000XM4",
+    "brand": "Sony",
+    "description": "WF-1000XM4 premium product",
+    "price": 31000,
+    "stock": 41,
+    "images": [
+      "/data/images/audio/wf-1000xm4.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 22,
+    "name": "JBL Tune 510",
+    "brand": "JBL",
+    "description": "JBL Tune 510 premium product",
+    "price": 32000,
+    "stock": 42,
+    "images": [
+      "/data/images/audio/jbl_tune_510.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 23,
+    "name": "JBL Live 660",
+    "brand": "JBL",
+    "description": "JBL Live 660 premium product",
+    "price": 33000,
+    "stock": 43,
+    "images": [
+      "/data/images/audio/jbl_live_660.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 24,
+    "name": "JBL Charge 5",
+    "brand": "JBL",
+    "description": "JBL Charge 5 premium product",
+    "price": 34000,
+    "stock": 44,
+    "images": [
+      "/data/images/audio/jbl_charge_5.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 25,
+    "name": "Boat Rockerz 255",
+    "brand": "Boat",
+    "description": "Boat Rockerz 255 premium product",
+    "price": 35000,
+    "stock": 44,
+    "images": [
+      "/data/images/audio/boat_rockerz_255.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-21T18:23:47.546Z"
+  },
+  {
+    "id": 26,
+    "name": "Boat Airdopes 141",
+    "brand": "Boat",
+    "description": "Boat Airdopes 141 premium product",
+    "price": 36000,
+    "stock": 46,
+    "images": [
+      "/data/images/audio/boat_airdopes_141.png"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 27,
+    "name": "Boat Stone 1200",
+    "brand": "Boat",
+    "description": "Boat Stone 1200 premium product",
+    "price": 37000,
+    "stock": 47,
+    "images": [
+      "/data/images/audio/boat_stone_1200.jpg"
+    ],
+    "category": "audio",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 28,
+    "name": "Apple Watch 7",
+    "brand": "Apple",
+    "description": "Apple Watch 7 premium product",
+    "price": 38000,
+    "stock": 47,
+    "images": [
+      "/data/images/smartwatches/apple_watch_7.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2026-01-06T08:45:59.291Z"
+  },
+  {
+    "id": 29,
+    "name": "Apple Watch 8",
+    "brand": "Apple",
+    "description": "Apple Watch 8 premium product",
+    "price": 39000,
+    "stock": 40,
+    "images": [
+      "/data/images/smartwatches/apple_watch_8.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-24T05:45:07.451Z"
+  },
+  {
+    "id": 30,
+    "name": "Apple Watch Ultra",
+    "brand": "Apple",
+    "description": "Apple Watch Ultra premium product",
+    "price": 40000,
+    "stock": 20,
+    "images": [
+      "/data/images/smartwatches/apple_watch_ultra.jpg"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 31,
+    "name": "Galaxy Watch 4",
+    "brand": "Samsung",
+    "description": "Galaxy Watch 4 premium product",
+    "price": 41000,
+    "stock": 21,
+    "images": [
+      "/data/images/smartwatches/galaxy_watch_4.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 32,
+    "name": "Galaxy Watch 5",
+    "brand": "Samsung",
+    "description": "Galaxy Watch 5 premium product",
+    "price": 42000,
+    "stock": 21,
+    "images": [
+      "/data/images/smartwatches/galaxy_watch_5.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-18T05:47:35.348Z"
+  },
+  {
+    "id": 33,
+    "name": "Galaxy Watch 6",
+    "brand": "Samsung",
+    "description": "Galaxy Watch 6 premium product",
+    "price": 43000,
+    "stock": 23,
+    "images": [
+      "/data/images/smartwatches/galaxy_watch_6.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 34,
+    "name": "Noise ColorFit",
+    "brand": "Noise",
+    "description": "Noise ColorFit premium product",
+    "price": 44000,
+    "stock": 24,
+    "images": [
+      "/data/images/smartwatches/noise_colorfit.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 35,
+    "name": "Noise Pulse",
+    "brand": "Noise",
+    "description": "Noise Pulse premium product",
+    "price": 45000,
+    "stock": 25,
+    "images": [
+      "/data/images/smartwatches/noise_pulse.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 36,
+    "name": "Noise Pro",
+    "brand": "Noise",
+    "description": "Noise Pro premium product",
+    "price": 46000,
+    "stock": 26,
+    "images": [
+      "/data/images/smartwatches/noise_pro.png"
+    ],
+    "category": "smartwatches",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 37,
+    "name": "Canon EOS 1500D",
+    "brand": "Canon",
+    "description": "Canon EOS 1500D premium product",
+    "price": 47000,
+    "stock": 27,
+    "images": [
+      "/data/images/camera/canon_eos_1500d.jpg"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 38,
+    "name": "Canon EOS 200D",
+    "brand": "Canon",
+    "description": "Canon EOS 200D premium product",
+    "price": 48000,
+    "stock": 28,
+    "images": [
+      "/data/images/camera/canon_eos_200d.jpg"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 39,
+    "name": "Canon EOS R10",
+    "brand": "Canon",
+    "description": "Canon EOS R10 premium product",
+    "price": 49000,
+    "stock": 29,
+    "images": [
+      "/data/images/camera/canon_eos_r10.jpg"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 40,
+    "name": "Nikon D3500",
+    "brand": "Nikon",
+    "description": "Nikon D3500 premium product",
+    "price": 50000,
+    "stock": 30,
+    "images": [
+      "/data/images/camera/nikon_d3500.png"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 41,
+    "name": "Nikon D5600",
+    "brand": "Nikon",
+    "description": "Nikon D5600 premium product",
+    "price": 51000,
+    "stock": 31,
+    "images": [
+      "/data/images/camera/nikon_d5600.png"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 42,
+    "name": "Nikon Z50",
+    "brand": "Nikon",
+    "description": "Nikon Z50 premium product",
+    "price": 52000,
+    "stock": 32,
+    "images": [
+      "/data/images/camera/nikon_z50.png"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 43,
+    "name": "Sony Alpha A6400",
+    "brand": "Sony",
+    "description": "Sony Alpha A6400 premium product",
+    "price": 53000,
+    "stock": 33,
+    "images": [
+      "/data/images/camera/sony_alpha_a6400.jpg"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 44,
+    "name": "Sony Alpha A7",
+    "brand": "Sony",
+    "description": "Sony Alpha A7 premium product",
+    "price": 54000,
+    "stock": 34,
+    "images": [
+      "/data/images/camera/sony_alpha_a7.png"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 45,
+    "name": "Sony Alpha A7 III",
+    "brand": "Sony",
+    "description": "Sony Alpha A7 III premium product",
+    "price": 55000,
+    "stock": 35,
+    "images": [
+      "/data/images/camera/sony_alpha_a7_iii.png"
+    ],
+    "category": "camera",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 46,
+    "name": "iPhone 7",
+    "brand": "Apple",
+    "description": "iPhone 7 premium product",
+    "price": 11000,
+    "stock": 21,
+    "images": [
+      "/data/images/mobiles/iphone_7.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 47,
+    "name": "iPhone X",
+    "brand": "Apple",
+    "description": "iPhone X premium product",
+    "price": 12000,
+    "stock": 22,
+    "images": [
+      "/data/images/mobiles/iphone_x.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
+  },
+  {
+    "id": 48,
+    "name": "iPhone 16",
+    "brand": "Apple",
+    "description": "iPhone 16 premium product",
+    "price": 13000,
+    "stock": 23,
+    "images": [
+      "/data/images/mobiles/iphone_16.png"
+    ],
+    "category": "mobiles",
+    "active": true,
+    "createdAt": "2025-12-07T09:49:41Z",
+    "updatedAt": "2025-12-07T09:49:41Z"
   }
 ]

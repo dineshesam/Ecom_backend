@@ -66,5 +66,22 @@
     },
     "createdAt": "2025-12-10T11:58:18.594Z",
     "updatedAt": "2025-12-10T11:58:18.594Z"
+  },
+  {
+    "id": 6,
+    "userId": "cce465c4-3eb4-456b-b11d-b8aad3d6005f",
+    "data": {
+      "name": "Ashish",
+      "phoneNo": "9989876846",
+      "pincode": "507864",
+      "state": "Gujarat",
+      "city": "Jaru",
+      "buildingName": "himflat",
+      "area": "goshvi street",
+      "type": "office",
+      "location": "water tank"
+    },
+    "createdAt": "2025-12-17T15:46:05.914Z",
+    "updatedAt": "2025-12-17T19:04:01.702Z"
   }
 ]
